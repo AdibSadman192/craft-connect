@@ -335,11 +335,7 @@ https://github.com/AdibSadman192
 ```
 
 Personal and non-commercial use needs no announcement, though a link is always welcome. The full text is
-in [LICENSE](LICENSE). Note that GitHub shows this as "Other" rather than "MIT" because of the extra
-term. If you would rather have the MIT badge, move the attribution paragraph into a NOTICE file and keep
-LICENSE as plain MIT.
-
-Written by Adib Sadman, [@AdibSadman192](https://github.com/AdibSadman192). Issues and pull requests are
+in [LICENSE](LICENSE). Written by Adib Sadman, [@AdibSadman192](https://github.com/AdibSadman192). Issues and pull requests are
 welcome.
 
 ## Community
