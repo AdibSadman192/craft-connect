@@ -1,0 +1,46 @@
+name: Feature request
+description: A harness to support, an app to handle better, or something the panel should do
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is awkward today
+      description: Describe the situation, not the solution, if you can.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you would like instead
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of change
+      options:
+        - New harness support
+        - Craft app behaviour
+        - Interface
+        - Detection
+        - Documentation
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: harness
+    attributes:
+      label: If this is a harness, where does it keep its MCP config
+      description: A path, or a link to its documentation. A real config file the app wrote is ideal.
+      placeholder: "~/.example/mcp.json with a top level mcpServers object"
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This is about Craft Connect, not about a bug in a craft app
+          required: true
+        - label: This does not require a new third party dependency

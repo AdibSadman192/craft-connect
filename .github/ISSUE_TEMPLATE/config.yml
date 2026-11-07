@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Security issue
+    url: https://github.com/AdibSadman192/craft-connect/security/advisories/new
+    about: Report anything sensitive privately instead of opening an issue.
+  - name: How detection works
+    url: https://github.com/AdibSadman192/craft-connect#detection-and-why-a-column-is-on-or-off
+    about: Read this before reporting a harness column that stays grey.
+  - name: ArtCraft suite
+    url: https://github.com/storytold
+    about: Bugs inside a craft app itself belong upstream with the original author.

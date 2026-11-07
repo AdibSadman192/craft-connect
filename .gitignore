@@ -1,0 +1,23 @@
+# Control tokens are local credentials the craft apps create at launch.
+# Never commit them; the app regenerates them on demand.
+tokens/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Config backups written by Craft Connect into harness folders
+*.craftconnect.bak
+
+# One-off screenshots / debug previews
+_*.png
+
+# Windows noise
+Thumbs.db
+desktop.ini
+
+# Negotiated GUI control ports (machine-local)
+ports.json
+
+# Local notes: publishing checklist and this machine's detection layout
+PUBLISHING.local.md
